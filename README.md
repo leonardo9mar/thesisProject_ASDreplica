@@ -3,7 +3,10 @@
 ## Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder
 
 This repository contains the codes written and used for my thesis work ' Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder'. 
-The overall pipeline includes the integration of different methods for the analysis of EEG data and structural connectivity data and the simulation and optimization process of the personalized brain network model.
+The overall pipeline includes integrating different methods for analyzing EEG data and structural connectivity data and the simulation and optimization process of the personalized brain network model.
+
+...
+
 
 ![workflow](./thesis_workflow.png )
 
@@ -11,14 +14,19 @@ The overall pipeline includes the integration of different methods for the analy
 
 ## Contents
 
--  pipeline of multimodal analysis for EEG data
+-  pipeline of multimodal analysis for EEG data (h.>i.)
+        
+-  pipeline of structural connectivity analysis (b.>l.)
 
--  pipeline of structural connectivity analysis
+-  simulation of brain network model in the virtual brain framework (b.>c.>d.>e.)
 
--  simulation of brain network model in the virtual brain framework
+-  pipeline of optimization process and feature importance (h.>g.<>f.<e.)
 
--  pipeline of optimization process and feature importance
+  Code was written modularly and subsequently integrated into a global framework. In particular, a pipeline for the MRI preprocessing and connectivity extraction from advanced tractography techniques (a>b), not reported here, was developed by Michelangelo Fabbrizzi producing connectivity input used in the simulation pipeline. 
 
 
-## 
+
+## Usage
+
+The material can be used for
 
