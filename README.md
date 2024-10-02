@@ -5,7 +5,7 @@
 This repository contains the codes written and used for my thesis work ' Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder'. 
 The overall pipeline includes the integration of different methods for the analysis of EEG data and structural connectivity data and the simulation and optimization process of the personalized brain network model.
 
-![workflow](./image/workflow2.png)
+![workflow](./thesis_workflow.png )
 
 
 
