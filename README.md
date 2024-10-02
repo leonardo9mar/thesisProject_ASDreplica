@@ -2,10 +2,10 @@
 
 ## Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder
 
-This repository contains the codes written and used for my thesis work ' Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder'. 
+This repository contains the codes that I've written and used for my thesis work 'Network Model Reproduces Personalized Brain Dynamics in Autism Spectrum Disorder'. 
 The overall pipeline includes integrating different methods for analyzing EEG data and structural connectivity data and the simulation and optimization process of the personalized brain network model.
 
-...
+
 
 
 ![workflow](./thesis_workflow.png )
@@ -18,15 +18,18 @@ The overall pipeline includes integrating different methods for analyzing EEG da
         
 -  pipeline of structural connectivity analysis (b.>l.)
 
--  simulation of brain network model in the virtual brain framework (b.>c.>d.>e.)
+-  pipeline of simulation of the brain network model in the virtual brain framework (b.>c.>d.>e.)
 
 -  pipeline of optimization process and feature importance (h.>g.<>f.<e.)
 
-  Code was written modularly and subsequently integrated into a global framework. In particular, a pipeline for the MRI preprocessing and connectivity extraction from advanced tractography techniques (a>b), not reported here, was developed by Michelangelo Fabbrizzi producing connectivity input used in the simulation pipeline. 
-
-
-
+  The codes were written in Python integrating the Virtual Brain Framework and several libraries in a unified frame.
+  The EEG and MRI datasets of the two subjects used in this study have been acquired at the IRCCS Stella Maris Foundation under the clinical supervision of Dr. E. Bartolini and Dr. S. Calderoni, and shared, after anonymization, for research purposes within a scientific collaboration between the Sant’Anna School of Advanced Studies and the Stella Maris Institute.
+  I preprocessed the EEG data with standard techniques with the EEGLAB toolbox, and the codes in this repository assume preprocessed EEG data in input. 
+  
+  
 ## Usage
+The material can be cloned for other purposes or consulted.
+If you find an issue or would like to submit an improvement, please submit an issue using the issues tab above. 
 
-The material can be used for
-
+## Known issues (work in progress)
+This repository is still ongoing. The material is going to be integrated in a global framework for a coming publication, including the MRI tractography pipeline (a.>b.), developed by Michelangelo Fabrizzi.
