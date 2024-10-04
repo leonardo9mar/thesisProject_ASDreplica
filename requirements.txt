@@ -1,0 +1,15 @@
+matplotlib
+numpy 
+pandas 
+mne
+seaborn 
+scikit-learn
+networkx
+small_world_propensity 
+scipy
+fooof
+tvb
+neurodsp
+powerlaw
+shap
+
