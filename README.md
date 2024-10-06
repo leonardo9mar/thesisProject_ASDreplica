@@ -14,7 +14,7 @@ The overall pipeline includes integrating different methods for analyzing EEG an
 
 ## Contents
 
--  pipeline of multimodal analysis for EEG data (h.>I.) [EEG_multimodal_analysis.ipynb]
+-  pipeline of multimodal analysis for EEG data (h.>I.) [EEG_analysis.ipynb]
         
 -  pipeline of structural connectivity analysis (b.>l.) [SC_analysis.ipynb]
 
